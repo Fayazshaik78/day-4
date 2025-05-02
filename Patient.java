@@ -1,0 +1,14 @@
+public class Patient {
+    public void  printDetails(String hospitalName, String patientName, int age){
+        System.out.println("Hospital Name :"+hospitalName);
+        System.err.println("Patient Name :"+patientName);
+        System.err.println("Patient Age :"+age);
+
+    }
+    public static void main(String[] args) {
+        Patient patient = new Patient();
+        patient.printDetails(" City Care Hospital", "John Doe", 45);
+        patient.printDetails(": City Care Hospital", "Emma Watson", 30);
+    }
+    
+}
